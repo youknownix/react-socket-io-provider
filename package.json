@@ -1,0 +1,45 @@
+{
+  "name": "react-socket-io-provider",
+  "version": "1.0.0",
+  "description": "socket.io on steroids for react apps",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "source": "src/index",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest",
+    "tsc": "tsc --noEmit",
+    "lint": "eslint \"**/*.{js,ts,tsx}\"",
+    "pack": "tsc && npm pack"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/youknownix/react-socket-io-provider.git"
+  },
+  "keywords": [
+    "socket.io",
+    "react",
+    "react-native"
+  ],
+  "author": "Nix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/youknownix/react-socket-io-provider/issues"
+  },
+  "homepage": "https://github.com/youknownix/react-socket-io-provider#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  }
+}
