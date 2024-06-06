@@ -24,7 +24,8 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "jsx": "react"
   },
   "exclude": ["node_modules", "test", "dist", "**/*spec.ts", "lib"]
 }

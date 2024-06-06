@@ -1,6 +1,6 @@
 {
   "name": "react-socket-io-provider",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "socket.io on steroids for react apps",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -35,11 +35,20 @@
   },
   "homepage": "https://github.com/youknownix/react-socket-io-provider#readme",
   "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-react": "^7.24.1",
     "@types/jest": "^29.5.5",
+    "@types/react": "^18.2.73",
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
     "prettier": "^3.0.3",
+    "react": "^18.2.0",
+    "socket.io-client": "^4.7.5",
     "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "react": "*"
   }
 }
